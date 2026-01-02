@@ -1,4 +1,4 @@
-# Implementation Comparison: Original vs Our Enhancements
+# Implementation Comparison: Original Group Repository vs My Enhancements
 
 **Project:** Husky Dashboard - ROS Sensor Data Poisoning Detection  
 **Author:** Max Heitzman  
@@ -6,11 +6,11 @@
 
 ## 📋 Overview
 
-This document compares the original shared repository with our enhanced implementation, documenting all additions, improvements, and new features we developed for the capstone project.
+This document compares the original group repository ([joMusangu/husky-dashboard](https://github.com/joMusangu/husky-dashboard/tree/feature/gps-anomaly-detection)) with my enhanced implementation, documenting all additions, improvements, and new features I developed individually for the capstone project.
 
 ---
 
-## 🔍 Original Repository (Shared)
+## 🔍 Original Repository (Group - Shared)
 
 ### Base Features
 - **Basic Dashboard:** Flask-based web interface
@@ -41,11 +41,11 @@ husky-dashboard/
 
 ---
 
-## ✨ Our Enhancements & Additions
+## ✨ My Enhancements & Additions
 
 ### 1. 🎯 GPS Prediction System (`gps_prediction.py`)
 
-**What We Added:**
+**What I Added:**
 - **IMU-based GPS prediction** for multiple time intervals (1.0s, 5.0s, 10.0s)
 - **Prediction error analysis** comparing predicted vs actual GPS positions
 - **Haversine distance calculations** for accurate error measurement
@@ -69,7 +69,7 @@ husky-dashboard/
 
 ### 2. 🛡️ Boundary Detection System (`boundary_detection.py`)
 
-**What We Added:**
+**What I Added:**
 - **Four boundary configurations** for GPS falsification detection
 - **Configurable detection thresholds** (boundary_1, boundary_2, boundary_3, no_boundary)
 - **GPS-Odometry error calculation** in meters
@@ -94,13 +94,13 @@ husky-dashboard/
 ### 3. 📊 Analysis & Benchmarking Tools
 
 #### A. Graph Generator (`graph_generator.py`)
-**What We Added:**
+**What I Added:**
 - Automated graph generation for analysis
 - Multiple visualization types
 - Performance comparison charts
 
 #### B. Analysis Graphs (`generate_analysis_graphs.py`)
-**What We Added:**
+**What I Added:**
 - **5 comprehensive analysis graphs:**
   1. Falsification detection by boundary configuration
   2. Precision comparison across methods
@@ -122,7 +122,7 @@ husky-dashboard/
 - Supports presentation and reporting
 
 #### C. Processing Speed Analyzer (`processing_speed_analyzer.py`)
-**What We Added:**
+**What I Added:**
 - Performance benchmarking
 - Throughput analysis
 - Latency measurements
@@ -134,7 +134,7 @@ husky-dashboard/
 
 #### A. Max's Demo Version (`maxs_demo_version/max_version/`)
 
-**What We Improved:**
+**What I Improved:**
 - **Enhanced ROS bag parsing** with better error handling
 - **Improved sensor data extraction** for GPS, IMU, Odometry
 - **Better real-time processing** with threading
@@ -165,7 +165,7 @@ husky-dashboard/
 
 ### 5. 🤖 LSTM Training Pipeline (`trainer/`)
 
-**What We Added:**
+**What I Added:**
 - **Complete LSTM training system:**
   - `prepare_data.py` - Data preparation from bag files
   - `train_lstm.py` - LSTM model training
@@ -189,13 +189,13 @@ husky-dashboard/
 ### 6. 📈 Comparison & Analysis Tools
 
 #### A. Bag Comparison (`compare_bags.py`)
-**What We Added:**
+**What I Added:**
 - Compare normal vs anomaly bag files
 - Side-by-side analysis
 - Difference detection
 
 #### B. Sensor Data Generator (`sensor_data_generator.py`)
-**What We Added:**
+**What I Added:**
 - Generate synthetic sensor data
 - Create test datasets
 - Simulate sensor readings
@@ -204,7 +204,7 @@ husky-dashboard/
 
 ### 7. 📊 Benchmark Analysis
 
-**What We Added:**
+**What I Added:**
 - **Performance benchmarks** documented in `BENCHMARK_PLOTS_EXPLANATION.md`
 - **Concrete performance metrics:**
   - F1 Score: 0.692 (anomaly detection)
@@ -411,13 +411,13 @@ This GPS anomaly detection dashboard is a **critical component** of the Robot Sy
 
 ## 📝 Summary
 
-### What We Started With
+### What I Started With (Original Group Repository)
 - Basic dashboard from shared repository
 - LSTM GPS prediction model
 - Simple poison injection
 - Basic anomaly detection
 
-### What We Built
+### What I Built (My Enhancements)
 - **10+ new Python scripts** for analysis and processing
 - **Enhanced backend** with better error handling
 - **Complete ML training pipeline**
@@ -493,5 +493,5 @@ This enhanced implementation was primarily developed by **Max Heitzman**, who im
 
 ---
 
-*This comparison document demonstrates the significant enhancements and additions made to the original shared repository for the capstone project.*
+*This comparison document demonstrates the significant enhancements and additions I made individually to the original group repository for the capstone project.*
 
