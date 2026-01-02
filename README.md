@@ -243,6 +243,20 @@ This GPS anomaly detection component integrates with the main platform to provid
 - [UMD Husky Robot](https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot/)
 - [ROS Documentation](https://www.ros.org/)
 
+## 📊 Implementation Comparison
+
+See [IMPLEMENTATION_COMPARISON.md](./IMPLEMENTATION_COMPARISON.md) for a detailed comparison between the original shared repository and our enhanced implementation, including all additions, improvements, and new features developed for the capstone project.
+
+**Key Enhancements:**
+- ✨ IMU-based GPS prediction system (`gps_prediction.py`)
+- ✨ Boundary detection with multiple configurations (`boundary_detection.py`)
+- ✨ Comprehensive analysis and benchmarking tools
+- ✨ Enhanced backend with better error handling
+- ✨ Live sensor readings and historical charts (in `maxs_demo_version`)
+- ✨ Complete LSTM training pipeline (`trainer/`)
+- ✨ Production-ready features (CSV export, enhanced UI)
+- ✨ 5+ analysis graphs showing system performance
+
 ## 👤 Author
 
 **Max Heitzman**
