@@ -257,15 +257,31 @@ See [IMPLEMENTATION_COMPARISON.md](./IMPLEMENTATION_COMPARISON.md) for a detaile
 - ✨ Production-ready features (CSV export, enhanced UI)
 - ✨ 5+ analysis graphs showing system performance
 
-## 👥 Team Members
+## 👥 Team & Contributions
 
 **CS 4366 - Senior Capstone Project Fall 2025 - Team 5**
 
-- **John Heitzman** (Project Manager) - AI Integration & Communications Lead
-- **Noah Küng** (Lead Developer) - AI/ML Engineer
-- **Joseph Musangu** (Data Analyst) - Data Analysis/UI & UX
-- **Omotoyosi Adams** (UI/UX Designer) - Data Engineer
-- **Delphin Iradukunda** (Documentation Specialist) - Data Analysis Research
+This repository contains the enhanced GPS anomaly detection dashboard component, with significant technical contributions and improvements by **Max Heitzman**.
+
+### Team Members
+- **John Heitzman (Max)** - Project Manager, AI Integration & Communications Lead
+- **Noah Küng** - Lead Developer, AI/ML Engineer
+- **Joseph Musangu** - Data Analyst, Data Analysis/UI & UX
+- **Omotoyosi Adams** - UI/UX Designer, Data Engineer
+- **Delphin Iradukunda** - Documentation Specialist, Data Analysis Research
+
+### Technical Contributions (Max Heitzman)
+
+**This enhanced implementation includes:**
+- ✨ **GPS Prediction System** - IMU-based GPS prediction for multiple time intervals (`gps_prediction.py`)
+- ✨ **Boundary Detection System** - Multiple boundary configurations for GPS falsification detection (`boundary_detection.py`)
+- ✨ **Analysis & Benchmarking Tools** - Graph generation, performance analysis, processing speed analyzer
+- ✨ **Enhanced Backend** - Improved ROS bag parsing, better error handling, threading improvements
+- ✨ **LSTM Training Pipeline** - Complete training system with data preparation (`trainer/`)
+- ✨ **Production Features** - CSV export, live sensor displays, enhanced UI design
+- ✨ **Comprehensive Documentation** - Implementation comparison, benchmarking analysis
+
+**See [IMPLEMENTATION_COMPARISON.md](./IMPLEMENTATION_COMPARISON.md) for detailed technical contributions.**
 
 **Project Website:** [Capstone Project Website](https://jomusangu.github.io/capstone_website/)
 

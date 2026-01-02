@@ -436,15 +436,58 @@ This GPS anomaly detection dashboard is a **critical component** of the Robot Sy
 
 ---
 
-## 👥 Team Members
+## 👥 Team & Technical Contributions
 
 **CS 4366 - Senior Capstone Project Fall 2025 - Team 5**
 
-- **John Heitzman** (Project Manager) - AI Integration & Communications Lead
-- **Noah Küng** (Lead Developer) - AI/ML Engineer  
-- **Joseph Musangu** (Data Analyst) - Data Analysis/UI & UX
-- **Omotoyosi Adams** (UI/UX Designer) - Data Engineer
-- **Delphin Iradukunda** (Documentation Specialist) - Data Analysis Research
+### Team Members
+- **John Heitzman (Max)** - Project Manager, AI Integration & Communications Lead
+- **Noah Küng** - Lead Developer, AI/ML Engineer
+- **Joseph Musangu** - Data Analyst, Data Analysis/UI & UX
+- **Omotoyosi Adams** - UI/UX Designer, Data Engineer
+- **Delphin Iradukunda** - Documentation Specialist, Data Analysis Research
+
+### Primary Technical Contributions (Max Heitzman)
+
+This enhanced implementation was primarily developed by **Max Heitzman**, who implemented:
+
+1. **GPS Prediction System** (`gps_prediction.py`)
+   - IMU-based GPS prediction algorithms
+   - Multiple prediction intervals (1.0s, 5.0s, 10.0s)
+   - Error analysis and validation
+
+2. **Boundary Detection System** (`boundary_detection.py`)
+   - Multiple boundary configurations
+   - GPS-Odometry cross-validation
+   - High-precision detection algorithms
+
+3. **Analysis & Benchmarking Tools**
+   - Graph generation system
+   - Performance analysis tools
+   - Processing speed analyzer
+   - 5+ comprehensive analysis graphs
+
+4. **Enhanced Backend Implementation**
+   - Improved ROS bag parsing
+   - Better error handling
+   - Thread-safe processing
+   - Enhanced sensor data extraction
+
+5. **LSTM Training Pipeline** (`trainer/`)
+   - Complete training system
+   - Data preparation scripts
+   - Model training implementation
+
+6. **Production Features**
+   - CSV export functionality
+   - Live sensor readings display
+   - Enhanced UI design
+   - Real-time visualization improvements
+
+7. **Comprehensive Documentation**
+   - Implementation comparison document
+   - Benchmarking analysis
+   - Technical documentation
 
 **Project Website:** [Capstone Project Website](https://jomusangu.github.io/capstone_website/)
 
