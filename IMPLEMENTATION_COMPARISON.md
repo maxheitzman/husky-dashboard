@@ -436,10 +436,17 @@ This GPS anomaly detection dashboard is a **critical component** of the Robot Sy
 
 ---
 
-## 👤 Author
+## 👥 Team Members
 
-**Max Heitzman**  
-CS 4366 - Senior Capstone Project Fall 2025
+**CS 4366 - Senior Capstone Project Fall 2025 - Team 5**
+
+- **John Heitzman** (Project Manager) - AI Integration & Communications Lead
+- **Noah Küng** (Lead Developer) - AI/ML Engineer  
+- **Joseph Musangu** (Data Analyst) - Data Analysis/UI & UX
+- **Omotoyosi Adams** (UI/UX Designer) - Data Engineer
+- **Delphin Iradukunda** (Documentation Specialist) - Data Analysis Research
+
+**Project Website:** [Capstone Project Website](https://jomusangu.github.io/capstone_website/)
 
 ---
 
