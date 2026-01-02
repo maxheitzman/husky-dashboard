@@ -264,7 +264,7 @@ See [IMPLEMENTATION_COMPARISON.md](./IMPLEMENTATION_COMPARISON.md) for a detaile
 This repository contains the enhanced GPS anomaly detection dashboard component, with significant technical contributions and improvements by **Max Heitzman**.
 
 ### Team Members
-- **John Heitzman (Max)** - Project Manager, AI Integration & Communications Lead
+- **John Heitzman (Max)** - Project Manager, Full-Stack Development, System Architecture & AI Integration
 - **Noah Küng** - Lead Developer, AI/ML Engineer
 - **Joseph Musangu** - Data Analyst, Data Analysis/UI & UX
 - **Omotoyosi Adams** - UI/UX Designer, Data Engineer
